@@ -1,9 +1,3 @@
-Here is the fully updated `AWS-CONSOLE-PROCESS.md` file with your new steps carefully corrected for technical accuracy, grammar, and integrated seamlessly into the existing format.
-
-I’ve also included the simplified explanation for the "Task Role" vs. "Task Execution Role" in Step 30, as requested.
-
----
-
 # AWS Console Setup Process
 
 This document serves as a step-by-step log of the AWS console actions taken to set up the necessary IAM resources for deploying a multi-stage single-container application (React + Express) using ECR and ECS.
