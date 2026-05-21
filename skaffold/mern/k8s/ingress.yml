@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: queue-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: core-service
+                port:
+                  number: 80
+          - pathType: Prefix
+            path: "/api/notification"
+            backend:
+              service:
+                name: notification-service
+                port:
+                  number: 80
