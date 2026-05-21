@@ -303,6 +303,13 @@ PORT=3001
 
 ### Environment & Dependency Setup
 ```powershell
+# First uninstall existing Node.js completely
+# Then reinstall Node.js and during installation make sure to:
+# ✔ Check the "Automatically install the necessary tools" / Chocolatey install checkbox
+
+# After installation:
+# Open PowerShell as Administrator
+
 # Install Skaffold via Chocolatey (Windows)
 choco install skaffold -y
 
